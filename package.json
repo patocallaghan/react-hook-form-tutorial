@@ -12,6 +12,7 @@
     "test:ui": "vitest --ui"
   },
   "dependencies": {
+    "@hookform/error-message": "^2.0.1",
     "@hookform/resolvers": "^5.1.1",
     "autoprefixer": "^10.4.21",
     "postcss": "^8.5.6",
