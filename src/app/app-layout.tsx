@@ -1,4 +1,4 @@
-import { Outlet, Link } from 'react-router'
+import { Outlet, Link } from 'react-router';
 
 export function AppLayout() {
   return (
@@ -32,5 +32,5 @@ export function AppLayout() {
         <Outlet />
       </main>
     </div>
-  )
+  );
 }

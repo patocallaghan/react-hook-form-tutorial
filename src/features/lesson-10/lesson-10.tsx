@@ -1,17 +1,21 @@
-import { Link } from 'react-router'
+import { Link } from 'react-router';
 
 export function Lesson10() {
   return (
     <div className="max-w-4xl mx-auto px-4 py-6">
       <div className="mb-8">
-        <Link to="/" className="text-blue-600 hover:text-blue-800 mb-4 inline-block">
+        <Link
+          to="/"
+          className="text-blue-600 hover:text-blue-800 mb-4 inline-block"
+        >
           ← Back to Home
         </Link>
         <h1 className="text-3xl font-bold text-gray-900 mb-4">
           Lesson 10: Advanced Validation
         </h1>
         <p className="text-lg text-gray-600">
-          Master async validation, server-side validation, and custom validation modes for complex scenarios.
+          Master async validation, server-side validation, and custom validation
+          modes for complex scenarios.
         </p>
         <a
           href="https://react-hook-form.com/docs/useform#validation"
@@ -38,19 +42,25 @@ export function Lesson10() {
           <li>Two-Factor Authentication setup (conditional)</li>
         </ul>
         <p className="text-gray-700">
-          Implement <code className="bg-gray-100 px-2 py-1 rounded">async validation</code>,{' '}
-          <code className="bg-gray-100 px-2 py-1 rounded">setError</code> for server errors, and{' '}
-          <code className="bg-gray-100 px-2 py-1 rounded">trigger</code> for manual validation.
+          Implement{' '}
+          <code className="bg-gray-100 px-2 py-1 rounded">
+            async validation
+          </code>
+          , <code className="bg-gray-100 px-2 py-1 rounded">setError</code> for
+          server errors, and{' '}
+          <code className="bg-gray-100 px-2 py-1 rounded">trigger</code> for
+          manual validation.
         </p>
       </div>
 
       <div className="bg-white rounded-lg shadow-md p-6">
         <h2 className="text-xl font-semibold mb-4">Account Validation Form</h2>
-        
+
         {/* TODO: Implement the advanced validation form */}
         <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-4">
           <p className="text-yellow-800">
-            <strong>TODO:</strong> Implement advanced validation with async checks
+            <strong>TODO:</strong> Implement advanced validation with async
+            checks
           </p>
           <div className="mt-2 text-sm text-yellow-700">
             <p>Steps to complete:</p>
@@ -68,5 +78,5 @@ export function Lesson10() {
         </div>
       </div>
     </div>
-  )
+  );
 }

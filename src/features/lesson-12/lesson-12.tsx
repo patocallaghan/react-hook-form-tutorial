@@ -1,17 +1,21 @@
-import { Link } from 'react-router'
+import { Link } from 'react-router';
 
 export function Lesson12() {
   return (
     <div className="max-w-4xl mx-auto px-4 py-6">
       <div className="mb-8">
-        <Link to="/" className="text-blue-600 hover:text-blue-800 mb-4 inline-block">
+        <Link
+          to="/"
+          className="text-blue-600 hover:text-blue-800 mb-4 inline-block"
+        >
           ← Back to Home
         </Link>
         <h1 className="text-3xl font-bold text-gray-900 mb-4">
           Lesson 12: Form Submission & API Integration
         </h1>
         <p className="text-lg text-gray-600">
-          Implement real-world form submission with API integration, error handling, and loading states using MSW mocks.
+          Implement real-world form submission with API integration, error
+          handling, and loading states using MSW mocks.
         </p>
         <a
           href="https://react-hook-form.com/docs/useform/handlesubmit"
@@ -39,19 +43,26 @@ export function Lesson12() {
           <li>Form reset after successful submission</li>
         </ul>
         <p className="text-gray-700">
-          Use <code className="bg-gray-100 px-2 py-1 rounded">handleSubmit</code> with API calls,{' '}
-          <code className="bg-gray-100 px-2 py-1 rounded">isSubmitting</code> for loading states, and{' '}
-          <code className="bg-gray-100 px-2 py-1 rounded">setError</code> for server errors.
+          Use{' '}
+          <code className="bg-gray-100 px-2 py-1 rounded">handleSubmit</code>{' '}
+          with API calls,{' '}
+          <code className="bg-gray-100 px-2 py-1 rounded">isSubmitting</code>{' '}
+          for loading states, and{' '}
+          <code className="bg-gray-100 px-2 py-1 rounded">setError</code> for
+          server errors.
         </p>
       </div>
 
       <div className="bg-white rounded-lg shadow-md p-6">
-        <h2 className="text-xl font-semibold mb-4">Contact Form with API Integration</h2>
-        
+        <h2 className="text-xl font-semibold mb-4">
+          Contact Form with API Integration
+        </h2>
+
         {/* TODO: Implement the API-integrated contact form */}
         <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-4">
           <p className="text-yellow-800">
-            <strong>TODO:</strong> Implement contact form with API integration and MSW mocks
+            <strong>TODO:</strong> Implement contact form with API integration
+            and MSW mocks
           </p>
           <div className="mt-2 text-sm text-yellow-700">
             <p>Steps to complete:</p>
@@ -69,5 +80,5 @@ export function Lesson12() {
         </div>
       </div>
     </div>
-  )
+  );
 }

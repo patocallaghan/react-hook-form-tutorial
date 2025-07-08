@@ -1,17 +1,21 @@
-import { Link } from 'react-router'
+import { Link } from 'react-router';
 
 export function Lesson02() {
   return (
     <div className="max-w-4xl mx-auto px-4 py-6">
       <div className="mb-8">
-        <Link to="/" className="text-blue-600 hover:text-blue-800 mb-4 inline-block">
+        <Link
+          to="/"
+          className="text-blue-600 hover:text-blue-800 mb-4 inline-block"
+        >
           ← Back to Home
         </Link>
         <h1 className="text-3xl font-bold text-gray-900 mb-4">
           Lesson 2: Form Validation
         </h1>
         <p className="text-lg text-gray-600">
-          Learn how to implement form validation using React Hook Form's built-in validation rules and custom validation functions.
+          Learn how to implement form validation using React Hook Form's
+          built-in validation rules and custom validation functions.
         </p>
         <a
           href="https://react-hook-form.com/docs/useform/register"
@@ -36,26 +40,34 @@ export function Lesson02() {
           <li>Bio (optional, max 500 characters)</li>
         </ul>
         <p className="text-gray-700">
-          Use built-in validation rules like <code className="bg-gray-100 px-2 py-1 rounded">required</code>,{' '}
+          Use built-in validation rules like{' '}
+          <code className="bg-gray-100 px-2 py-1 rounded">required</code>,{' '}
           <code className="bg-gray-100 px-2 py-1 rounded">minLength</code>,{' '}
-          <code className="bg-gray-100 px-2 py-1 rounded">pattern</code>, and custom validation functions.
+          <code className="bg-gray-100 px-2 py-1 rounded">pattern</code>, and
+          custom validation functions.
         </p>
       </div>
 
       <div className="bg-white rounded-lg shadow-md p-6">
         <h2 className="text-xl font-semibold mb-4">User Profile Form</h2>
-        
+
         {/* TODO: Implement the user profile form with validation */}
         <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-4">
           <p className="text-yellow-800">
-            <strong>TODO:</strong> Implement the user profile form with comprehensive validation
+            <strong>TODO:</strong> Implement the user profile form with
+            comprehensive validation
           </p>
           <div className="mt-2 text-sm text-yellow-700">
             <p>Steps to complete:</p>
             <ol className="list-decimal list-inside mt-1 space-y-1">
               <li>Import useForm and set validation mode to "onBlur"</li>
-              <li>Add username field with required, minLength, maxLength, and pattern validation</li>
-              <li>Implement email field with required and email pattern validation</li>
+              <li>
+                Add username field with required, minLength, maxLength, and
+                pattern validation
+              </li>
+              <li>
+                Implement email field with required and email pattern validation
+              </li>
               <li>Create phone field with custom validation function</li>
               <li>Add optional website field with URL validation</li>
               <li>Implement bio textarea with character limit</li>
@@ -66,5 +78,5 @@ export function Lesson02() {
         </div>
       </div>
     </div>
-  )
+  );
 }

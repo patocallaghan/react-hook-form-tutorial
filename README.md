@@ -24,6 +24,7 @@ This repository is designed to teach React Hook Form through practical, incremen
 ## 🚀 Getting Started
 
 ### Prerequisites
+
 - Node.js (v18 or higher)
 - pnpm, npm, or yarn
 - Basic knowledge of React and TypeScript
@@ -31,12 +32,14 @@ This repository is designed to teach React Hook Form through practical, incremen
 ### Installation
 
 1. **Clone the repository**
+
    ```bash
    git clone <your-repo-url>
    cd react-hook-form-tutorial
    ```
 
 2. **Install dependencies**
+
    ```bash
    pnpm install
    # or
@@ -46,6 +49,7 @@ This repository is designed to teach React Hook Form through practical, incremen
    ```
 
 3. **Start the development server**
+
    ```bash
    pnpm dev
    # or
@@ -60,11 +64,14 @@ This repository is designed to teach React Hook Form through practical, incremen
 ## 📖 How to Use This Tutorial
 
 ### 1. Start with the Home Page
+
 - Visit the home page to see all available lessons
 - Each lesson card shows the learning objectives and links to official documentation
 
 ### 2. Follow the Lesson Structure
+
 Each lesson follows this pattern:
+
 - **Read the README** - Each lesson has a detailed `README.md` with:
   - Learning objectives
   - Prerequisites
@@ -74,12 +81,14 @@ Each lesson follows this pattern:
   - Testing requirements
 
 ### 3. Complete the Implementation
+
 - Open the lesson component file (e.g., `src/features/lesson-01/lesson-01.tsx`)
 - Look for the TODO sections with implementation guidance
 - Follow the step-by-step instructions in the README
 - Implement the required functionality
 
 ### 4. Run Tests
+
 - Each lesson has corresponding tests
 - Run tests to verify your implementation:
   ```bash
@@ -89,6 +98,7 @@ Each lesson follows this pattern:
   ```
 
 ### 5. Experiment and Extend
+
 - Try variations of the implementation
 - Explore the official documentation links
 - Experiment with different approaches
@@ -152,7 +162,7 @@ pnpm test lesson-01.test.tsx
 Track your progress through the curriculum:
 
 - [ ] **Lesson 1**: Basic Form Setup
-- [ ] **Lesson 2**: Form Validation  
+- [ ] **Lesson 2**: Form Validation
 - [ ] **Lesson 3**: Error Handling
 - [ ] **Lesson 4**: Schema Validation with Zod
 - [ ] **Lesson 5**: Form State Management
@@ -192,6 +202,7 @@ This tutorial is designed for learning. If you find issues or have suggestions:
 ## 🏆 Completion
 
 After completing all lessons, you'll have:
+
 - Solid understanding of React Hook Form concepts
 - Practical experience with form validation
 - Knowledge of performance optimization techniques

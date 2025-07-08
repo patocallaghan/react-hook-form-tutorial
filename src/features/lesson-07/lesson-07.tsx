@@ -1,17 +1,21 @@
-import { Link } from 'react-router'
+import { Link } from 'react-router';
 
 export function Lesson07() {
   return (
     <div className="max-w-4xl mx-auto px-4 py-6">
       <div className="mb-8">
-        <Link to="/" className="text-blue-600 hover:text-blue-800 mb-4 inline-block">
+        <Link
+          to="/"
+          className="text-blue-600 hover:text-blue-800 mb-4 inline-block"
+        >
           ← Back to Home
         </Link>
         <h1 className="text-3xl font-bold text-gray-900 mb-4">
           Lesson 7: Controlled Components
         </h1>
         <p className="text-lg text-gray-600">
-          Learn to integrate React Hook Form with controlled components using useController for custom components and UI libraries.
+          Learn to integrate React Hook Form with controlled components using
+          useController for custom components and UI libraries.
         </p>
         <a
           href="https://react-hook-form.com/docs/usecontroller"
@@ -38,18 +42,22 @@ export function Lesson07() {
           <li>Budget Range (custom slider component)</li>
         </ul>
         <p className="text-gray-700">
-          Use <code className="bg-gray-100 px-2 py-1 rounded">useController</code> to create{' '}
-          reusable controlled components with proper error handling.
+          Use{' '}
+          <code className="bg-gray-100 px-2 py-1 rounded">useController</code>{' '}
+          to create reusable controlled components with proper error handling.
         </p>
       </div>
 
       <div className="bg-white rounded-lg shadow-md p-6">
-        <h2 className="text-xl font-semibold mb-4">Survey Form with Custom Components</h2>
-        
+        <h2 className="text-xl font-semibold mb-4">
+          Survey Form with Custom Components
+        </h2>
+
         {/* TODO: Implement the survey form with controlled components */}
         <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-4">
           <p className="text-yellow-800">
-            <strong>TODO:</strong> Implement custom controlled components using useController
+            <strong>TODO:</strong> Implement custom controlled components using
+            useController
           </p>
           <div className="mt-2 text-sm text-yellow-700">
             <p>Steps to complete:</p>
@@ -67,5 +75,5 @@ export function Lesson07() {
         </div>
       </div>
     </div>
-  )
+  );
 }
