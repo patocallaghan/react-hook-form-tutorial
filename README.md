@@ -21,6 +21,9 @@ This repository is designed to teach React Hook Form through practical, incremen
 - **File Uploads** - Handling file inputs and validation
 - **API Integration** - Real-world form submission with mocking
 
+![image](https://github.com/user-attachments/assets/c8ae58b1-e70c-4d4a-ae24-d6f85f03c4f3)
+
+
 ## 🚀 Getting Started
 
 ### Prerequisites
