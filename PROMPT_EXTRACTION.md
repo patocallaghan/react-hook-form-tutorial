@@ -2,7 +2,7 @@
 
 This document extracts the key prompts used to successfully create the React Hook Form tutorial project. These prompts can be adapted for creating similar educational projects.
 
-Set up a new project with the following commands and then run Claude from the project directory:
+## Bootstrapping the project
 
 ```
 pnpm create vite react-hook-form-tutorial --template react-ts
